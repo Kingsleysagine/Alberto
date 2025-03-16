@@ -115,3 +115,59 @@
     }); // End of a document ready
 
 })(jQuery);
+
+// Function to get the current date, time, and geolocation
+function getDateTimeLocation() {
+  const date = new Date();
+  const currentTime = date.toLocaleTimeString();
+  const currentDate = date.toLocaleDateString();
+  
+  // Use Geolocation API to get the current location
+  if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+          
+          // Set the content for the ticker
+          const tickerContent = `
+              Date: ${currentDate} | Time: ${currentTime} | Location: Latitude ${latitude.toFixed(2)}, Longitude ${longitude.toFixed(2)}
+          `;
+          document.getElementById("ticker-content").innerText = tickerContent;
+      }, (error) => {
+          console.error("Error getting geolocation:", error);
+          const tickerContent = `
+              Date: ${currentDate} | Time: ${currentTime} | Location: Unknown
+          `;
+          document.getElementById("ticker-content").innerText = tickerContent;
+      });
+  } else {
+      const tickerContent = `
+          Date: ${currentDate} | Time: ${currentTime} | Location: Not available
+      `;
+      document.getElementById("ticker-content").innerText = tickerContent;
+  }
+}
+
+// Update the ticker every 1 second to keep the time up-to-date
+setInterval(getDateTimeLocation, 1000);
+
+// Initialize the ticker when the page loads
+getDateTimeLocation();
+
+
+// Get the current visitor count from localStorage, or default to 0 if not found
+let visitorCount = localStorage.getItem("visitorCount");
+if (!visitorCount) {
+    visitorCount = 0; // Initialize if it's the first visit
+} else {
+    visitorCount = parseInt(visitorCount);
+}
+
+// Increment the count for each visit
+visitorCount++;
+
+// Update the visitor count in the page
+document.getElementById("visitor-count").innerText = visitorCount;
+
+// Store the new count in localStorage to persist across page reloads
+localStorage.setItem("visitorCount", visitorCount);
