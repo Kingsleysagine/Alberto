@@ -1,0 +1,218 @@
+[
+    {
+        "name": "jsonMagnam Tiste",
+        "image": "images/productclock-item1.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$5.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Aut Luia",
+        "image": "images/productclock-item2.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$14.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Est Eligendi",
+        "image": "images/productclock-item3.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$8.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Eos Luibusdam",
+        "image": "images/productclock-item4.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Eos Luibusdam",
+        "image": "images/productclock-item5.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Laboriosam Direva",
+        "image": "images/productclock-item6.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$9.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Magnam Tiste",
+        "image": "images/product-item6.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$5.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Aut Luia",
+        "image": "images/product-item7.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$14.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Est Eligendi",
+        "image": "images/product-item8.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$8.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Eos Luibusdam",
+        "image": "images/product-item9.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Eos Luibusdam",
+        "image": "images/product-item10.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Laboriosam Direva",
+        "image": "images/banner-imbage.png",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$9.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Magnam Tiste",
+        "image": "images/productlux-item1.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$5.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Aut Luia",
+        "image": "images/productlux-item2.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$14.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Est Eligendi",
+        "image": "images/productlux-item3.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$8.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Eos Luibusdam",
+        "image": "images/productlux-item4.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Eos Luibusdam",
+        "image": "images/productlux-item5.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Laboriosam Direva",
+        "image": "images/productlux-item6.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$9.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Magnam Tiste",
+        "image": "images/product-item1.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$5.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Aut Luia",
+        "image": "images/product-item2.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$14.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Est Eligendi",
+        "image": "images/product-item3.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$8.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Eos Luibusdam",
+        "image": "images/product-item4.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Eos Luibusdam",
+        "image": "images/product-item5.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Laboriosam Direva",
+        "image": "images/product-item13.jpg",
+        "description": "Lorem, deren, trataro, filede, nerada",
+        "price": "$9.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    }
+]
